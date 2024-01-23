@@ -1,0 +1,26 @@
+.card2{
+    margin-left:100px;
+
+}
+#a1{
+    margin-left: 140px;
+}
+.card-title{
+    margin-left: 110px;
+}
+.card-text{
+    margin-left: 100px;
+}
+.card2:hover{
+    border: 2px solid black;
+
+}
+h1 {
+    text-shadow: 2px 2px 5px black;
+    margin-left: 20px;
+  }
+  .cardnews{
+    width: 50px;
+    margin-left: 50px;
+  }
+

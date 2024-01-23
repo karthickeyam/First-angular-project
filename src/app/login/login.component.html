@@ -1,0 +1,17 @@
+<div class="loginpage">
+    <label for="username"><em>Username:</em></label>
+    <input type="text" id="username" [(ngModel)]="username">
+    <br>
+    <br>
+  
+    <label for="password"><em>Password:</em></label>
+    <input type="password" id="password" [(ngModel)]="password">
+    <br><br>
+  
+    <button (click)="login()" class="login">Login</button>
+  
+    <p *ngIf="loginFailed">Invalid username or password. Please try again.</p>
+  </div>
+  
+  
+  
